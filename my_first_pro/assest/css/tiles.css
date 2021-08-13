@@ -1,0 +1,96 @@
+.headermessage {
+    margin: 19px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .image-block {
+      border: 3px solid white ;
+      background-color: black;
+      padding: 0px;    
+      margin: 0px;
+      height:200px;
+      text-align: center;
+      vertical-align: bottom;
+  }
+  .image-block > p {
+      width: 100%;
+      height: 100%;
+      font-weight: normal;
+      font-size: 19px;
+      padding-top: 150px;
+      background-color: rgba(3,3,3,0.0);
+      color: rgba(6,6,6,0.0);
+  }
+  .image-block:hover > p {
+      background-color: rgba(3,3,3,0.5);    
+      color: white;    
+  }
+  .image-lk{
+    background:url("assest/img/h2.jpg")!important;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #859398, #283048);  
+background: linear-gradient(to right, #859398, #283048);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .image-lk:hover{
+      
+      background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7) !important ;  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #FFFDE4, #005AA7) !important ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+  }
+  #lk-home{
+      text-align: left;
+     
+      height: 110px;
+  }
+  .lk-para{
+
+    font-size: 50px;
+    /* padding: 30px; */
+    font-family: 'Titillium Web', sans-serif;
+    color:#191970;
+    
+  }
+  .lk-ceylon{
+      height:200px;
+      width:700px!important;
+  }
+  .myrow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.mybadge{
+    margin-top: 30px;
+    font-size: 25px;
+    opacity: 0.8;
+    width: 100%;
+    position: static;
+}
+#email-lk{
+    height: 100px;
+    padding-top: 0px;  
+    position: static;
+}
+.email-badge{
+    font-size: 25px;
+    opacity: 0.8;
+    margin-top: 20px;
+    /* width: 100%; */
+}
+.mybadge:hover{
+    transform: translateY(-10px);
+  transition: 0.5s;
+
+}
+.email-badge:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+  
+}
+.img5{
+    position: relative;
+}
+.phone{
+    position: absolute;
+}
